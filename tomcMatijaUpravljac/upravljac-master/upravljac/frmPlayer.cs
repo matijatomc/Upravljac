@@ -12,6 +12,7 @@ namespace upravljac
 {
     public partial class frmPlayer : Form
     {
+        private PlayerKontrola mp3Player = new PlayerKontrola();
         public frmPlayer()
         {
             InitializeComponent();
@@ -19,29 +20,43 @@ namespace upravljac
 
         PlayerKontrola Muzika = new PlayerKontrola();
 
-        private void BtnStop_Click(object sender, EventArgs e)
+        
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Muzika.Stop();
+            using (OpenFileDialog ofd = new OpenFileDialog())
+            {
+                ofd.Filter = "Mp3 Files|*.mp3";
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    mp3Player.open(ofd.FileName);
+                }
+            }
         }
 
-        private void BtnPlay_Click(object sender, EventArgs e)
+        private void btnPlay_Click(object sender, EventArgs e)
         {
             Muzika.Play();
         }
 
-        private void BtnPause_Click(object sender, EventArgs e)
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            Muzika.Stop();
+        }
+
+        private void btnPause_Click(object sender, EventArgs e)
         {
             Muzika.Pause();
         }
 
-        private void BtnBackward_Click(object sender, EventArgs e)
-        {
-            Muzika.Backward();
-        }
-
-        private void BtnForward_Click(object sender, EventArgs e)
+        private void btnForward_Click(object sender, EventArgs e)
         {
             Muzika.Forward();
+        }
+
+        private void btnBackward_Click(object sender, EventArgs e)
+        {
+            Muzika.Backward();
         }
     }
 }

@@ -8,3 +8,12 @@ C:\Users\Korisnik\source\repos\upravljac\upravljac\obj\Debug\upravljac.csproj.Co
 C:\Users\Korisnik\source\repos\upravljac\upravljac\obj\Debug\upravljac.exe
 C:\Users\Korisnik\source\repos\upravljac\upravljac\obj\Debug\upravljac.pdb
 C:\Users\Korisnik\source\repos\upravljac\upravljac\obj\Debug\upravljac.frmPlayer.resources
+C:\Users\Matija\Desktop\upravljac-master\upravljac\obj\Debug\upravljac.csprojAssemblyReference.cache
+C:\Users\Matija\Desktop\upravljac-master\upravljac\obj\Debug\upravljac.exe
+C:\Users\Matija\Desktop\upravljac-master\upravljac\obj\Debug\upravljac.pdb
+C:\Users\Matija\Desktop\upravljac-master\upravljac\bin\Debug\upravljac.exe.config
+C:\Users\Matija\Desktop\upravljac-master\upravljac\bin\Debug\upravljac.exe
+C:\Users\Matija\Desktop\upravljac-master\upravljac\bin\Debug\upravljac.pdb
+C:\Users\Matija\Desktop\upravljac-master\upravljac\obj\Debug\upravljac.frmPlayer.resources
+C:\Users\Matija\Desktop\upravljac-master\upravljac\obj\Debug\upravljac.Properties.Resources.resources
+C:\Users\Matija\Desktop\upravljac-master\upravljac\obj\Debug\upravljac.csproj.GenerateResource.cache
